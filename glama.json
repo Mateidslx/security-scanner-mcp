@@ -1,0 +1,8 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "name": "security-scanner-mcp",
+  "description": "Autonomous HTTP Security Headers & RFC 9116 Vulnerability Disclosure Auditor for AI Agents and Developers.",
+  "maintainers": [
+    "Mateidslx"
+  ]
+}

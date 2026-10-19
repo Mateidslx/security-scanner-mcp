@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "security-scanner-mcp"
+version = "1.0.0"
+description = "Autonomous HTTP Security Headers & RFC 9116 Vulnerability Disclosure Auditor for AI Agents and Developers."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Matéi de Saint Léger", email = "matei64200@gmail.com" }
+]
+keywords = ["mcp", "model-context-protocol", "security", "headers", "rfc9116", "owasp", "agent"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+]
+
+[project.urls]
+Homepage = "https://github.com/Mateidslx/security-scanner-mcp"
+Repository = "https://github.com/Mateidslx/security-scanner-mcp"
+Issues = "https://github.com/Mateidslx/security-scanner-mcp/issues"
+
+[project.scripts]
+security-scanner-mcp = "security_scanner_mcp:run_stdio_server"
